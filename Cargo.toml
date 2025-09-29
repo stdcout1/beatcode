@@ -1,0 +1,9 @@
+[package]
+name = "beatcode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+iced = "0.13.1"
+windows-sys = { version = "0.61.1", features = ["Win32_UI", "Win32_UI_WindowsAndMessaging"] }
+winit = "0.30.12"
